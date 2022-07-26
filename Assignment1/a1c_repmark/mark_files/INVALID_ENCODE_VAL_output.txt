@@ -1,0 +1,4 @@
+S 0.0 (seq_num=1, ack_num=0, checksum=0, flags=0010001) 3337594187124333759417810612106 [INVALID ENC GET]
+R 0.0 (seq_num=1, ack_num=0, checksum=0, flags=0000101)  
+S 0.0 (seq_num=2, ack_num=1, checksum=0, flags=1000101)  [FIN/ACK]
+R 0.0 (seq_num=2, ack_num=2, checksum=0, flags=1000101)  

@@ -1,0 +1,8 @@
+S 0.0 (seq_num=1, ack_num=0, checksum=17430, flags=0010011) 1051861201401331281051861201402328618386 [GET]
+R 0.0 (seq_num=1, ack_num=0, checksum=27756, flags=0001011) [181*1464] 
+S 0.0 (seq_num=2, ack_num=1, checksum=65535, flags=1001011)  [ACK]
+R 0.0 (seq_num=2, ack_num=0, checksum=8738, flags=0001011) [181*2][47*1000] 
+S 0.0 (seq_num=3, ack_num=2, checksum=65535, flags=1001011)  [ACK]
+R 0.0 (seq_num=3, ack_num=0, checksum=65535, flags=0000111)  
+S 0.0 (seq_num=4, ack_num=3, checksum=65535, flags=1000111)  [FIN/ACK]
+R 0.0 (seq_num=4, ack_num=4, checksum=65535, flags=1000111)  

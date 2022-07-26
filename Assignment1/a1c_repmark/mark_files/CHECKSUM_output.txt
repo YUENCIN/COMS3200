@@ -1,0 +1,8 @@
+S 0.0 (seq_num=1, ack_num=0, checksum=19008, flags=0010010) files/file.txt [GET]
+R 0.0 (seq_num=1, ack_num=0, checksum=36237, flags=0001010) [a*1464] 
+S 0.0 (seq_num=2, ack_num=1, checksum=65535, flags=1001010)  [ACK]
+R 0.0 (seq_num=2, ack_num=0, checksum=30326, flags=0001010) [a*2][b*1000] 
+S 0.0 (seq_num=3, ack_num=2, checksum=65535, flags=1001010)  [ACK]
+R 0.0 (seq_num=3, ack_num=0, checksum=65535, flags=0000110)  
+S 0.0 (seq_num=4, ack_num=3, checksum=65535, flags=1000110)  [FIN/ACK]
+R 0.0 (seq_num=4, ack_num=4, checksum=65535, flags=1000110)  
